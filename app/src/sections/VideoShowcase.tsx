@@ -8,8 +8,8 @@ const videos = [
   {
     title: 'Viral Reel Edit',
     category: 'Short-Form',
-    thumbnail: '/src/vertical.png',
-    videoUrl: '/src/vertical.mp4',
+    thumbnail: '/vertical.png',
+    videoUrl: '/vertical.mp4',
     views: '2.4M views',
     isVertical: true,
     alwaysPlay: true,
@@ -17,15 +17,15 @@ const videos = [
   {
     title: 'Talking Heads',
     category: 'Long-Form',
-    thumbnail: '/src/longform1.png',
-    videoUrl: '/src/longform1.mp4',
+    thumbnail: '/longform1.png',
+    videoUrl: '/longform1.mp4',
     views: '1.8M views',
   },
   {
     title: 'Long Form',
     category: 'Long-Form',
-    thumbnail: '/src/longform2.png',
-    videoUrl: '/src/longform2.mp4',
+    thumbnail: '/longform2.png',
+    videoUrl: '/longform2.mp4',
     views: '890K views',
   },
 ];

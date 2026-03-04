@@ -44,7 +44,7 @@ export function Navigation() {
               aria-label="Home"
             >
               <img
-                src="/src/GOAT Produces Site.png"
+                src="/GOAT Produces Site.png"
                 alt="GOAT Produces Logo"
                 className="h-8 md:h-10 w-auto object-contain animate-[spin-y_4s_linear_infinite]"
                 style={{ transformStyle: 'preserve-3d' }}

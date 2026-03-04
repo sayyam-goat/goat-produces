@@ -6,18 +6,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Client logos as text (replace with actual logos)
 const clients = [
-  'MrBeast',
-  'PewDiePie',
-  'Marques',
-  'Linus',
-  'Casey',
-  'Peter',
-  'David',
-  'Graham',
-  'Ali',
-  'Iman',
-  'Andrew',
-  'Hormozi',
+  'Dylan Hassos',
+  'Kristian Edwards',
+  'Spartan Media',
+  'Overscale Consulting',
+  'Thomas Shields',
+  'SWD IO',
+  'Novex AI',
+  'Daylit AI',
+  'CloserOS',
+  'Clipbait',
+  'Echo Growth',
+  'Bizscale',
+  'PI Boost',
 ];
 
 export function LogoCarousel() {
