@@ -111,14 +111,14 @@ export function Hero() {
       {/* Purple Orb */}
       <div
         ref={orbRef}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] lg:w-[600px] lg:h-[600px]"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] lg:w-[700px] lg:h-[700px]"
       >
-        {/* Outer glow */}
-        <div className="absolute inset-0 rounded-full bg-gradient-radial from-goat-purple/30 via-goat-purple/10 to-transparent blur-3xl animate-orb-pulse" />
+        {/* Outer glow - deep dark purple base */}
+        <div className="absolute inset-0 rounded-full bg-gradient-radial from-goat-purple-dark/60 via-goat-purple/20 to-transparent blur-3xl animate-orb-pulse" />
         {/* Middle glow */}
-        <div className="absolute inset-8 rounded-full bg-gradient-radial from-goat-purple/40 via-goat-purple-light/20 to-transparent blur-2xl animate-orb-pulse" style={{ animationDelay: '0.5s' }} />
+        <div className="absolute inset-8 rounded-full bg-gradient-radial from-goat-purple-dark/70 via-goat-purple/40 to-transparent blur-2xl animate-orb-pulse" style={{ animationDelay: '0.5s' }} />
         {/* Inner core */}
-        <div className="absolute inset-16 rounded-full bg-gradient-radial from-goat-purple-light/50 via-goat-purple/30 to-transparent blur-xl animate-orb-pulse" style={{ animationDelay: '1s' }} />
+        <div className="absolute inset-16 rounded-full bg-gradient-radial from-goat-purple/80 via-goat-purple-dark/50 to-transparent blur-xl animate-orb-pulse" style={{ animationDelay: '1s' }} />
       </div>
 
       {/* Content */}
