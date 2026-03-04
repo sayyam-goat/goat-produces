@@ -6,25 +6,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Satisfied clients
 const clientsRow1 = [
-  'MrBeast',
-  'Marques Brownlee',
-  'PewDiePie',
-  'Linus Tech Tips',
-  'Casey Neistat',
-  'Peter McKinnon',
-  'David Dobrik',
-  'Graham Stephan',
+  'Dylan Hassos',
+  'Kristian Edwards',
+  'Spartan Media',
+  'Overscale Consulting',
+  'Thomas Shields',
+  'SWD IO',
 ];
 
 const clientsRow2 = [
-  'Ali Abdaal',
-  'Iman Gadzhi',
-  'Andrew Kirby',
-  'Alex Hormozi',
-  'Codie Sanchez',
-  'Ryan Trahan',
-  'Airrack',
-  'Sidemen',
+  'Novex AI',
+  'Daylit AI',
+  'CloserOS',
+  'Clipbait',
+  'Echo Growth',
+  'Bizscale',
+  'PI Boost',
 ];
 
 export function ClientLogos() {
@@ -86,7 +83,7 @@ export function ClientLogos() {
         <div className="relative">
           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-goat-black to-transparent z-10 pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-goat-black to-transparent z-10 pointer-events-none" />
-          
+
           <div className="flex overflow-hidden">
             <div className="flex animate-scroll-left">
               {doubledRow1.map((client, index) => (
@@ -107,7 +104,7 @@ export function ClientLogos() {
         <div className="relative">
           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-goat-black to-transparent z-10 pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-goat-black to-transparent z-10 pointer-events-none" />
-          
+
           <div className="flex overflow-hidden">
             <div className="flex animate-scroll-right">
               {doubledRow2.map((client, index) => (
