@@ -95,7 +95,7 @@ export function Testimonials() {
             What Clients <span className="text-gradient-purple">Say</span>
           </h2>
           <p className="text-goat-gray text-lg max-w-2xl mx-auto">
-            Don't just take our word for it — hear from our satisfied creators
+            Don't just take our word for it — hear from our satisfied businesses
           </p>
         </div>
 

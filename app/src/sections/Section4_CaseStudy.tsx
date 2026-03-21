@@ -95,7 +95,7 @@ export function Section4_CaseStudy() {
                 <span className="text-goat-coral">in 3 Months</span>
               </h2>
               <p className="text-goat-gray text-sm lg:text-base mb-6">
-                Strategy + editing for a documentary-style creator. We transformed
+                Strategy + editing for a documentary-style business. We transformed
                 their content with cinematic storytelling and data-driven hooks.
               </p>
 

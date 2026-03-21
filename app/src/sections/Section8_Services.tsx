@@ -104,7 +104,7 @@ export function Section8_Services() {
               What we <span className="text-goat-coral">do</span>
             </h2>
             <p className="text-goat-gray text-base lg:text-lg leading-relaxed">
-              End-to-end editing and content systems for creators and brands. We
+              End-to-end editing and content systems for businesses and brands. We
               handle everything from strategy to final delivery.
             </p>
           </div>

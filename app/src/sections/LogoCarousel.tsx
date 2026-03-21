@@ -19,6 +19,7 @@ const clients = [
   'Echo Growth',
   'Bizscale',
   'PI Boost',
+  'ShopScale',
 ];
 
 export function LogoCarousel() {
@@ -63,7 +64,7 @@ export function LogoCarousel() {
       <div ref={contentRef} className="px-6 lg:px-12">
         {/* Label */}
         <p className="font-mono text-xs uppercase tracking-[0.15em] text-goat-gray text-center mb-10">
-          Trusted by Top Creators
+          Trusted by Top Businesses
         </p>
 
         {/* Carousel Container */}

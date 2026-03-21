@@ -96,7 +96,7 @@ export function Services() {
             What We <span className="text-gradient-purple">Do</span>
           </h2>
           <p className="text-goat-gray text-lg max-w-2xl mx-auto">
-            End-to-end video editing solutions for creators who demand excellence
+            End-to-end video editing solutions for businesses who demand excellence
           </p>
         </div>
 

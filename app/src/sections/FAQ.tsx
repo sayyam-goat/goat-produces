@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const faqs = [
   {
     question: 'What is your turnaround time?',
-    answer: 'Turnaround times vary by package. Our Starter plans offer 3-5 day turnaround, Professional plans offer 2-3 days, and Enterprise plans can deliver in as little as 24 hours. Rush delivery is available for an additional fee.',
+    answer: 'Our standard turnaround time is 24-36 hours for all projects.',
   },
   {
     question: 'How do I submit my footage?',
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: 'Can I cancel anytime?',
-    answer: 'Yes! Our monthly subscriptions can be canceled at any time with no penalties. You\'ll continue to have access until the end of your billing period. For one-time projects, cancellation policies vary based on project status.',
+    answer: "According to our cancellation policy if you are unsatisfied with the services, you may cancel once the package reaches it's midpoint & the deposit is made. 24-36 hours turnaround",
   },
   {
     question: 'What formats do you deliver?',
@@ -124,15 +124,13 @@ export function FAQ() {
                 <span className="font-medium text-white pr-4">{faq.question}</span>
                 <ChevronDown
                   size={20}
-                  className={`text-goat-purple shrink-0 transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
+                  className={`text-goat-purple shrink-0 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''
+                    }`}
                 />
               </button>
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-96' : 'max-h-0'
-                }`}
+                className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96' : 'max-h-0'
+                  }`}
               >
                 <p className="px-6 pb-6 text-goat-gray leading-relaxed">
                   {faq.answer}

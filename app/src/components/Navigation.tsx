@@ -44,10 +44,9 @@ export function Navigation() {
               aria-label="Home"
             >
               <img
-                src="/GOAT Produces Site.png"
+                src="/logo.png"
                 alt="GOAT Produces Logo"
-                className="h-8 md:h-10 w-auto object-contain animate-[spin-y_4s_linear_infinite]"
-                style={{ transformStyle: 'preserve-3d' }}
+                className="h-8 md:h-10 w-auto object-contain animate-float"
               />
               <span className="font-bold text-xl lg:text-2xl text-white tracking-tight">
                 GOAT<span className="text-goat-purple">.</span>Produces

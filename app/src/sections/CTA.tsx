@@ -77,7 +77,7 @@ export function CTA() {
           {/* Subheadline */}
           <p className="text-goat-gray text-lg lg:text-xl max-w-2xl mx-auto mb-10">
             Let's create something extraordinary together.
-            Join hundreds of creators who trust GOAT Produces.
+            Join hundreds of businesses who trust GOAT Produces.
           </p>
 
           {/* CTAs */}

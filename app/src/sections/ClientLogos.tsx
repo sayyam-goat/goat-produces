@@ -12,6 +12,7 @@ const clientsRow1 = [
   'Overscale Consulting',
   'Thomas Shields',
   'SWD IO',
+  'ShopScale',
 ];
 
 const clientsRow2 = [
@@ -70,10 +71,10 @@ export function ClientLogos() {
           Our Clients
         </span>
         <h2 className="font-bold text-section text-white mb-4">
-          Creators Who <span className="text-gradient-purple">Trust Us</span>
+          Businesses Who <span className="text-gradient-purple">Trust Us</span>
         </h2>
         <p className="text-goat-gray text-lg max-w-2xl mx-auto">
-          Join the ranks of satisfied creators who've elevated their content
+          Join the ranks of satisfied businesses who've elevated their content
         </p>
       </div>
 

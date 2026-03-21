@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
-  { value: 500, suffix: '+', label: 'Videos Edited' },
+  { value: 1500, suffix: '+', label: 'Videos Edited' },
   { value: 50, suffix: 'M+', label: 'Views Generated' },
   { value: 100, suffix: '+', label: 'Happy Clients' },
   { value: 99, suffix: '%', label: 'Satisfaction Rate' },
@@ -28,7 +28,7 @@ function CountUp({ target, suffix }: { target: number; suffix: string }) {
             value: target,
             duration: 2,
             ease: 'power2.out',
-            onUpdate: function() {
+            onUpdate: function () {
               setCount(Math.floor(this.targets()[0].value));
             },
           });

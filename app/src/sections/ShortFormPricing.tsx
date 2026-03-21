@@ -138,7 +138,7 @@ export function ShortFormPricing() {
           <div className="inline-block px-4 py-3 bg-goat-purple/10 border border-goat-purple/20 rounded-xl text-left max-w-2xl">
             <p className="text-goat-purple-light text-sm font-medium mb-1">System Details:</p>
             <p className="text-goat-gray text-xs">
-              We follow a credit-based system. One short-form video will cost 1 credit, if a video (post cut) goes ABOVE 1 minute and 30 seconds, 2 credits will be charged.
+              We follow a credit-based system. One short-form video will cost 1 credit, if a video (post cut) goes ABOVE 1 minute and 30 seconds, 2 credits will be charged. These packages are valid for maximum of 45 day. If the package's duration exceeds said limit, a penalty fees of half the amount of originally agreed package will be charged.
             </p>
           </div>
         </div>
@@ -152,8 +152,8 @@ export function ShortFormPricing() {
                 key={index}
                 ref={(el) => { cardsRef.current[index] = el; }}
                 className={`relative p-8 lg:p-10 rounded-2xl ${tier.popular
-                    ? 'bg-gradient-to-b from-goat-purple/20 to-goat-card glow-border-popular'
-                    : 'bg-goat-card glow-border'
+                  ? 'bg-gradient-to-b from-goat-purple/20 to-goat-card glow-border-popular'
+                  : 'bg-goat-card glow-border'
                   }`}
               >
                 {/* Popular Badge */}
@@ -189,8 +189,8 @@ export function ShortFormPricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block text-center w-full py-3.5 rounded-xl font-medium transition-all duration-300 mb-8 ${tier.popular
-                      ? 'bg-goat-purple hover:bg-goat-purple-light text-white hover:shadow-glow'
-                      : 'bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-goat-purple/50'
+                    ? 'bg-goat-purple hover:bg-goat-purple-light text-white hover:shadow-glow'
+                    : 'bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-goat-purple/50'
                     }`}
                 >
                   {tier.cta}

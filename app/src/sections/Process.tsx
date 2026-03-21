@@ -121,7 +121,7 @@ export function Process() {
             How It <span className="text-gradient-purple">Works</span>
           </h2>
           <p className="text-goat-gray text-lg max-w-2xl mx-auto">
-            Simple, streamlined, and designed for creators
+            Simple, streamlined, and designed for businesses
           </p>
         </div>
 

@@ -31,7 +31,7 @@ export function Footer() {
               GOAT<span className="text-goat-purple">.</span>Produces
             </h3>
             <p className="text-goat-gray text-sm">
-              Elevate Your Content. Dominate Your Niche.
+              Making Content Profitable. Dominate Your Niche.
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export function Footer() {
             © {new Date().getFullYear()} GOAT Produces. All rights reserved.
           </p>
           <p className="text-goat-gray text-xs">
-            Crafted with passion for creators worldwide.
+            Crafted with passion for businesses worldwide.
           </p>
         </div>
       </div>

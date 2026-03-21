@@ -116,7 +116,7 @@ export function Section1_Hero() {
             Produces
           </h1>
           <p className="text-base lg:text-lg text-goat-gray leading-relaxed mb-8 max-w-md">
-            Video editing & content strategy for creators who want to stand out.
+            Video editing & content strategy for businesses who want to stand out.
           </p>
           <button
             onClick={scrollToWork}

@@ -27,7 +27,7 @@ const pricingTiers = [
     name: 'Director',
     price: '$900',
     period: '/month',
-    description: 'For creators who want premium quality and volume',
+    description: 'For businesses who want premium quality and volume',
     icon: Star,
     features: [
       { name: '12 Long Videos', included: true },
@@ -42,7 +42,7 @@ const pricingTiers = [
     popular: true,
   },
   {
-    name: 'Creator Accelerator',
+    name: 'Business Accelerator',
     price: '$1,700',
     period: '/month',
     description: 'Documentary-level, high-volume production ecosystem',
@@ -138,7 +138,7 @@ export function LongFormPricing() {
           <div className="inline-block px-4 py-3 bg-goat-purple/10 border border-goat-purple/20 rounded-xl text-left max-w-2xl">
             <p className="text-goat-purple-light text-sm font-medium mb-1">System Details:</p>
             <p className="text-goat-gray text-xs">
-              These are NOT Monthly Packages, these packages will be renewed once the number of videos is completed. Extra charges apply after the included revisions are exceeded.
+              These packages are valid for maximum of 45 days. If the package's duration exceeds said limit, a penalty fees of half the amount of originally agreed package will be charged.
             </p>
           </div>
         </div>
@@ -152,8 +152,8 @@ export function LongFormPricing() {
                 key={index}
                 ref={(el) => { cardsRef.current[index] = el; }}
                 className={`relative p-8 lg:p-10 rounded-2xl ${tier.popular
-                    ? 'bg-gradient-to-b from-goat-purple/20 to-goat-card glow-border-popular'
-                    : 'bg-goat-card glow-border'
+                  ? 'bg-gradient-to-b from-goat-purple/20 to-goat-card glow-border-popular'
+                  : 'bg-goat-card glow-border'
                   }`}
               >
                 {/* Popular Badge */}
@@ -189,8 +189,8 @@ export function LongFormPricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block text-center w-full py-3.5 rounded-xl font-medium transition-all duration-300 mb-8 ${tier.popular
-                      ? 'bg-goat-purple hover:bg-goat-purple-light text-white hover:shadow-glow'
-                      : 'bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-goat-purple/50'
+                    ? 'bg-goat-purple hover:bg-goat-purple-light text-white hover:shadow-glow'
+                    : 'bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-goat-purple/50'
                     }`}
                 >
                   {tier.cta}
